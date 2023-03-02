@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+.app {
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-container {
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner {
+  width: 100%;
+  height: 500px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ellipse-Container {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ellipse {
+  background: #ccffff;
+  border-radius: 50%;
+}
+
+.footer-container {
+  margin-top: 3rem;
+  border-top: 1px solid black;
+}
+
+.contact_us-container {
+  display: flex;
+}
+
+.social-media-container {
+  width: 36%;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fb {
+  background: #1077f0;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.twit {
+  background: #229aef;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.insta {
+  background: linear-gradient(
+    38.41deg,
+    #ffdb70 6.14%,
+    #f3278e 48.98%,
+    #5351d7 96.99%
+  );
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.ld {
+  background: #2b67b3;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.pin {
+  background: #e60022;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.online-shopping {
+  width: 17%;
+}
+
+.online-shopping a {
+  color: #770015;
+  font-weight: 600;
+  font-size: 18px;
+}
+.customer-policies {
+  width: 17%;
+}
+
+.customer-policies a {
+  color: #770015;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.store-info {
+  width: 30%;
+}
+
+.store-info a {
+  color: #770015;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.copyright {
+  height: 68px;
+  background: #20050a;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff !important;
 }
